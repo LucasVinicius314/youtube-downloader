@@ -1,0 +1,19 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "youtube-mp3-downloader": "^0.7.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3"
+  },
+  "engines": {
+    "node": "16.16.0"
+  }
+}
